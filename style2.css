@@ -1,0 +1,96 @@
+@font-face {
+    font-family: paci;
+    src: url(DancingScript-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(altar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+
+.header, .footer {
+    color: #fff;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-family: paci;
+    font-size: 39px;
+    color: black;
+}
+
+.login-box {
+    background-color: rgb(204, 158, 102, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-box h2 {
+    margin-bottom: 15px;
+}
+
+.login-box label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.login-box input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background-color: #333;
+}
+
+.login-box p {
+    margin-top: 8px;
+}
+
+.login-box a {
+    color: #000;
+    text-decoration: none;
+}
+
+.login-box a:hover {
+    text-decoration: underline;
+}
+
+#header h1 {
+    font-family: paci
+}
+
+.footer img {
+    width: 58px;
+}
